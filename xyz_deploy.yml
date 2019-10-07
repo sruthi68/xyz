@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts:  "{{ host_name }}"
   tasks:
     - debug:
         msg: "Hello from xyz component"
